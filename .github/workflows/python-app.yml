@@ -25,15 +25,15 @@ jobs:
         python-version: "3.12"
     - name: Install dependencies
       run: |
-        python3 -m pip3 install --upgrade pip3
-        pip3 install virtualenv 
+        python -m pip install --upgrade pip
+        pip install virtualenv 
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: package pybuilder
       run: |
         # stop the build if there are Python syntax errors or undefined names
         virtualenv venv
         source venv/bin/activate
-        pip3 install pybuilder
+        pip install pybuilder
         pyb
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
    
