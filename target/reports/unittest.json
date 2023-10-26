@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "failures": [
+    {
+      "test": "testproject_tests.CountWordTest.test_check_number_of_words",
+      "traceback": "Traceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 58, in testPartExecutor\n    yield\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 634, in run\n    self._callTestMethod(testMethod)\n    ^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 589, in _callTestMethod\n    if method() is not None:\n    ^^^^^^^^^^^^^^^^^\n  File \"/Users/apple/Documents/ATU-Studies/githubdemo-Project/testproject/src/unittest/python/testproject_tests.py\", line 20, in test_check_number_of_words\n    self.assertEqual(out, \"Number Of Words : 4\")\n    ^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 885, in assertEqual\n    assertion_func(first, second, msg=msg)\n    ^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 1251, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n    ^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py\", line 715, in fail\n    raise self.failureException(msg)\n    ^^^^^^^^^^^^^^^^^\nAssertionError: 'Number Of Words : 5' != 'Number Of Words : 4'\n- Number Of Words : 5\n?                   ^\n+ Number Of Words : 4\n?                   ^\n\n"
+    }
+  ],
+  "tests-run": 1
+}

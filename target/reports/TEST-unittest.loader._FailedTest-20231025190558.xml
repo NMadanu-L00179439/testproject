@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="unittest.loader._FailedTest-20231025190558" tests="1" file="unittest/loader.py" time="0.001" timestamp="2023-10-25T19:05:58" failures="0" errors="1" skipped="0">
+	<testcase classname="unittest.loader._FailedTest" name="testproject_tests" time="0.001" timestamp="2023-10-25T19:05:58">
+		<error type="ImportError" message="Failed to import test module: testproject_tests
+Traceback (most recent call last):
+  File &quot;/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py&quot;, line 129, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File &quot;/Users/apple/Documents/ATU-Studies/githubdemo-Project/testproject/src/unittest/python/testproject_tests.py&quot;, line 11, in &lt;module&gt;
+    from countwords import userConfig
+ModuleNotFoundError: No module named 'countwords'
+"><![CDATA[Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 634, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 589, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 33, in testFailure
+    raise self._exception
+    ^^^^^^^^^^^^^^^^^
+ImportError: Failed to import test module: testproject_tests
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/loader.py", line 129, in loadTestsFromName
+    module = __import__(module_name)
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Documents/ATU-Studies/githubdemo-Project/testproject/src/unittest/python/testproject_tests.py", line 11, in <module>
+    from countwords import userConfig
+ModuleNotFoundError: No module named 'countwords'
+
+]]></error>
+	</testcase>
+</testsuite>

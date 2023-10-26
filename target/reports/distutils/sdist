@@ -1,0 +1,32 @@
+running clean
+'build/lib' does not exist -- can't clean it
+'build/bdist.macosx-10.9-universal2' does not exist -- can't clean it
+'build/scripts-3.12' does not exist -- can't clean it
+running sdist
+running egg_info
+creating testproject.egg-info
+writing testproject.egg-info/PKG-INFO
+writing dependency_links to testproject.egg-info/dependency_links.txt
+writing namespace_packages to testproject.egg-info/namespace_packages.txt
+writing top-level names to testproject.egg-info/top_level.txt
+writing manifest file 'testproject.egg-info/SOURCES.txt'
+reading manifest file 'testproject.egg-info/SOURCES.txt'
+writing manifest file 'testproject.egg-info/SOURCES.txt'
+warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
+
+running check
+creating testproject-1.0.dev0
+creating testproject-1.0.dev0/testproject.egg-info
+copying files to testproject-1.0.dev0...
+copying setup.py -> testproject-1.0.dev0
+copying testproject.py -> testproject-1.0.dev0
+copying testproject.egg-info/PKG-INFO -> testproject-1.0.dev0/testproject.egg-info
+copying testproject.egg-info/SOURCES.txt -> testproject-1.0.dev0/testproject.egg-info
+copying testproject.egg-info/dependency_links.txt -> testproject-1.0.dev0/testproject.egg-info
+copying testproject.egg-info/namespace_packages.txt -> testproject-1.0.dev0/testproject.egg-info
+copying testproject.egg-info/top_level.txt -> testproject-1.0.dev0/testproject.egg-info
+copying testproject.egg-info/zip-safe -> testproject-1.0.dev0/testproject.egg-info
+Writing testproject-1.0.dev0/setup.cfg
+creating dist
+Creating tar archive
+removing 'testproject-1.0.dev0' (and everything under it)

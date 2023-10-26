@@ -1,0 +1,41 @@
+
+Running tests...
+----------------------------------------------------------------------
+F
+======================================================================
+FAIL [0.003s]: test_check_number_of_words (testproject_tests.CountWordTest.test_check_number_of_words)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 634, in run
+    self._callTestMethod(testMethod)
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 589, in _callTestMethod
+    if method() is not None:
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Documents/ATU-Studies/githubdemo-Project/testproject/src/unittest/python/testproject_tests.py", line 20, in test_check_number_of_words
+    self.assertEqual(out, "Number Of Words : 4")
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+    ^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/unittest/case.py", line 715, in fail
+    raise self.failureException(msg)
+    ^^^^^^^^^^^^^^^^^
+AssertionError: 'Number Of Words : 5' != 'Number Of Words : 4'
+- Number Of Words : 5
+?                   ^
++ Number Of Words : 4
+?                   ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.010s
+
+FAILED (failures=1)
+
+Generating XML reports...

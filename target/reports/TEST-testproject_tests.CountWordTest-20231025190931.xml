@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testproject_tests.CountWordTest-20231025190931" tests="1" file="testproject_tests.py" time="0.001" timestamp="2023-10-25T19:09:40" failures="0" errors="0" skipped="0">
+	<testcase classname="testproject_tests.CountWordTest" name="test_check_number_of_words" time="0.001" timestamp="2023-10-25T19:09:40"/>
+</testsuite>
